@@ -16,4 +16,17 @@ Using trends in the Brooklyn housing market, we can potentially forecast Airbnb 
 
 ## Data
 
-I used data from Airbnb listing data from [InsideAirbnb.com](http://www.insideairbnb.com), which scrapes the most recent Airbnb listing information for millions of Airbnb apartments and rooms all across the globle. I also used Zillow's Home Value index and listing trends for neighborhood data. 
+I used data from Airbnb listing data from [InsideAirbnb.com](http://www.insideairbnb.com), which scrapes the most recent Airbnb listing information for millions of Airbnb apartments and rooms all across the globle. I also used Home Value index and listing trends for neighborhood data from [Zillow.com](https://www.zillow.com/research/data/).
+
+## Enviroment and tools
+
+1. Jupyter Notebook
+2. Numpy
+3. Pandas
+4. Seaborn
+5. Matplotlib
+6. Scikit-learn
+
+I chose to use the Linear Regression in my model, given the quantitiative nature of the datasets. The model achieved 55% on the training set and 45% on the testing set, with a mean-squared error of 4,976 and 3,898 on the training and testing set respectively. The model performed better once we eliminated the outliers from the dataset (53% and 61% on the training and testing set).
+
+
