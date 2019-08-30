@@ -18,6 +18,8 @@ Using trends in the Brooklyn housing market, we can potentially forecast Airbnb 
 
 I used data from Airbnb listing data from [InsideAirbnb.com](http://www.insideairbnb.com), which scrapes the most recent Airbnb listing information for millions of Airbnb apartments and rooms all across the globle. I also used Home Value index and listing trends for neighborhood data from [Zillow.com](https://www.zillow.com/research/data/).
 
+Given how large the Airbnb Listings file is, I have not included it in the repository.
+
 ## Enviroment and tools
 
 1. Jupyter Notebook
